@@ -1,0 +1,53 @@
+
+.aboutus-area {
+    padding-top:100px;
+     padding-bottom:100px;
+}
+/*-- aboutus Image --*/
+.aboutus-image {
+  margin-right: 52px;
+  width: 350px;
+  border-radius: 60px; }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .aboutus-image {
+      margin-right: 35px;
+      width: 345px;
+      border-radius: 60px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .aboutus-image {
+      margin-bottom: 30px;
+      float: none;
+      border-radius: 60px; } }
+  @media only screen and (max-width: 767px) {
+    .aboutus-image {
+      margin-bottom: 30px;
+      margin-right: 0;
+      float: none;
+      width: auto;
+      border-radius: 60px; } }
+  .aboutus-image img {
+    width: 100%; 
+    border-radius: 60px;}
+
+/*-- aboutus Content --*/
+.aboutus-content h1 {
+  
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  margin-left: 450px;
+  margin-top: -265px; 
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #a8ff78;
+position: fixed;}
+
+
+.aboutus-content p {
+position: relative;
+margin-top: 50px;
+  font-size: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  padding:5px;
+  line-height: 27px; 
+color: #a8ff78;}
+  
